@@ -1,4 +1,4 @@
-import 'package:firebase_tutorial/screens/spalsh_service.dart';
+import 'package:firebase_tutorial/services/spalsh_service.dart';
 import 'package:flutter/material.dart';
 
 class SlashScreen extends StatelessWidget {
