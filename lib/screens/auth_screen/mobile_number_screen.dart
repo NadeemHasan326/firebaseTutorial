@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_tutorial/services/auth_services.dart';
 import 'package:firebase_tutorial/widgets/cusotm_text_field.dart';
 import 'package:firebase_tutorial/widgets/custom_button.dart';
@@ -16,7 +15,7 @@ class _ForgotPasswordScreenState extends State<MobileNumberScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Mobile number")),
+      appBar: AppBar(title: const Text("Mobile number")),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30),

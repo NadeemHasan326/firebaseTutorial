@@ -1,5 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_tutorial/services/auth_services.dart';
 import 'package:firebase_tutorial/widgets/cusotm_text_field.dart';
 import 'package:firebase_tutorial/widgets/custom_button.dart';
@@ -18,7 +16,7 @@ class _ForgotPasswordScreenState extends State<OTPScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("OTP")),
+      appBar: AppBar(title: const Text("OTP")),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30),

@@ -1,9 +1,7 @@
-import 'dart:developer';
 
 import 'package:firebase_tutorial/screens/auth_screen/forgot_password_screen.dart';
 import 'package:firebase_tutorial/screens/auth_screen/mobile_number_screen.dart';
 import 'package:firebase_tutorial/screens/auth_screen/sign_up_screen.dart';
-import 'package:firebase_tutorial/screens/home_screen.dart';
 import 'package:firebase_tutorial/services/auth_services.dart';
 import 'package:firebase_tutorial/widgets/cusotm_text_field.dart';
 import 'package:firebase_tutorial/widgets/custom_button.dart';
@@ -85,9 +83,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 TextButton(
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => MobileNumberScreen()));
+                          builder: (context) => const MobileNumberScreen()));
                     },
-                    child: Text("Login with mobile number")),
+                    child: const Text("Login with mobile number")),
                 const SizedBox(
                   height: 40,
                 ),

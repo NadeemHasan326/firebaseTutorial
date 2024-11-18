@@ -1,7 +1,5 @@
-import 'dart:developer';
 
 import 'package:firebase_tutorial/screens/auth_screen/login_screen.dart';
-import 'package:firebase_tutorial/screens/home_screen.dart';
 import 'package:firebase_tutorial/services/auth_services.dart';
 import 'package:firebase_tutorial/widgets/cusotm_text_field.dart';
 import 'package:firebase_tutorial/widgets/custom_button.dart';
